@@ -1,0 +1,148 @@
+/* Configuración General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Fondo gris claro */
+}
+
+/* Encabezado */
+.header-bar {
+    background-color: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-bar h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.header-bar p {
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* Sección de Introducción */
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.intro .content {
+    width: 50%;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.intro p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.intro img {
+    width: 40%;
+    border-radius: 8px;
+}
+
+/* Sección de Estrenos */
+.feature {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.movie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.movie img {
+    width: 50%;
+    border-radius: 8px;
+}
+
+/* Sección de Recomendaciones */
+.recommendation {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.recommendation h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.movie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.movie img {
+    width: 50%;
+    border-radius: 8px;
+}
+
+/* Sección de Reseñas */
+.reviews h2 {
+    text-align: center; /* Alinea el título de la sección de reseñas */
+    margin-bottom: 20px;
+}
+
+/* Reseñas */
+.review {
+    display: flex;
+    align-items: center; /* Alinea la imagen y el texto verticalmente al centro */
+    justify-content: start; /* Alinea los elementos horizontalmente desde el inicio */
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.review img {
+    width: 40%; /* La imagen ocupará el 40% del ancho del contenedor */
+    border-radius: 8px;
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.review-text {
+    width: 60%; /* El texto ocupará el 60% restante */
+}
+
+.review-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.review-text p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 0.9rem;
+}
