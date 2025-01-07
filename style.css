@@ -1,0 +1,86 @@
+/* Reset de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* Estilos para la barra de navegación */
+  .navbar {
+    background-color: #333;
+    padding: 25px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .navbar-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navbar-links ul li a:hover {
+    background-color: #000000;
+    color: #8a8986;
+    border-radius: 5px;
+  }
+  
+  /* Contenedor principal de logo y redes sociales */
+.logo-and-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 20px; /* Espaciado entre el logo y las redes sociales */
+  }
+  
+  /* Estilo para el logo */
+  .logo-container img {
+    width: 300px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+  }
+  
+  /* Estilo para las redes sociales */
+  .box {
+    text-align: center;
+    margin-left: 50px; /* Empuja las redes sociales más hacia la derecha */
+  }
+  
+  .box h2 {
+    margin-bottom: 10px;
+    font-size: 16px; /* Reduce el tamaño del título */
+  }
+  
+  .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 35px; /* Tamaño más pequeño */
+    height: 35px; /* Tamaño más pequeño */
+    line-height: 35px; /* Alinea el texto/icono centrado */
+    color: #fff;
+    margin-right: 10px;
+    background-color: #000000;
+    text-align: center;
+    border-radius: 50%; /* Hace que los cuadros sean circulares */
+    transition: all 300ms ease;
+  }
+  
+  .red-social a:hover {
+    background-color: #555;
+    color: #ffffff;
+  }
+  
