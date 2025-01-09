@@ -1,0 +1,112 @@
+/* Paleta de colores */
+body {
+  background-color: #121212; /* Fondo oscuro */
+  color: #FFFFFF; /* Texto principal */
+}
+
+.navbar {
+  background-color: #121212; /* Fondo oscuro */
+}
+
+.navbar-brand, .nav-link {
+  color: #FFD700 !important; /* Detalles dorados */
+}
+
+.nav-link:hover {
+  color: #B22222 !important; /* Rojo ladrillo */
+}
+
+/* Hero Section con imagen de fondo */
+.hero {
+  background: url(./log) no-repeat center center/cover;
+  color: #FFFFFF;
+  text-align: center;
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
+  display: flex;
+  align-items: center; /* Centra verticalmente el contenido */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  padding: 20px;
+}
+
+.hero-content {
+  max-width: 800px; /* Limita el ancho del contenido */
+  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar la legibilidad */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+
+.btn-custom {
+  background-color: #B22222; /* Rojo ladrillo */
+  color: #FFFFFF;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #FFD700; /* Dorado */
+  color: #121212;
+}
+
+.card {
+  background-color: #1E1E1E; /* Fondo más claro para las tarjetas */
+  border: none;
+}
+
+.card-title {
+  color: #FFD700; /* Dorado */
+}
+
+.card-text {
+  color: #808080; /* Gris suave */
+}
+
+footer {
+  background-color: #121212;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Imagen dentro de la tarjeta */
+.card-img-container img {
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+ }
+ /* Fondo de la tarjeta */
+ .card {
+  background-color: #1E1E1E; /* Fondo oscuro */
+  border: none;
+ }
+ /* Título de la crítica */
+ .card-title {
+  color: #FFD700; /* Color dorado */
+  font-size: 2rem;
+  font-weight: bold;
+ }
+ /* Texto de la crítica */
+ .card-text {
+  color: #B0B0B0;
+  font-size: 1.1rem;
+  line-height: 1.8;
+ }
+ /* Botón personalizado */
+ .btn-custom {
+  background-color: #B22222; /* Rojo ladrillo */
+  color: #FFFFFF;
+  border: none;
+ }
+ .btn-custom:hover {
+  background-color: #FFD700; /* Dorado */
+  color: #121212;
+ }
+ /* Fin de los estilos de la reseña */

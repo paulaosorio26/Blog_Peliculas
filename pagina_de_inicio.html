@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Rincón del Cine</title> 
+  <link rel="stylesheet" href="./pagina.css">
+  <link rel="stylesheet" href="style_menu.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3c28784d31.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Barra de Navegación -->
+<nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="pagina_de_inicio.html">El Rincón del Cine</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="pagina_de_inicio.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="QuienesSomos.html">Quiénes somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contáctenos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Tus mejores películas aquí</a>
+          </li>
+        </ul>
+        <form class="d-flex ms-auto" role="search">
+          <input class="form-control me-2" type="search" placeholder="Busca tus películas aquí" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav> 
+</nav>
+
+<div class="logo-and-social">
+  <!-- Logo -->
+  <div class="logo-container">
+    <img src="images/logo.png" alt="Logo del Sitio">
+  </div>
+  <!-- Redes sociales -->
+  <div class="box">
+    <h2>Síguenos</h2>
+    <div class="red-social">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa-brands fa-tiktok"></a>
+      <a href="#" class="fa fa-whatsapp"></a>
+    </div>
+  </div>
+</div>
+
+  <!-- Próximas Películas -->
+  <div class="container py-5">
+    <h2 class="text-center mb-4">Próximas Películas</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://archivos-cms.cinecolombia.com/images/_aliases/exhibition_poster_mobile/4/4/6/4/64644-4-esl-CO/340fa12d891c-480x670_poster_cinecolombia_mufasa.png" class="card-img-top" alt="Película 1">
+          <div class="card-body">
+            <h5 class="card-title">Mufasa</h5>
+            <p class="card-text">Explorando el improbable ascenso del amado rey de las Tierras del Orgullo, MUFASA: EL REY LEÓN, cuenta con Rafiki como el encargado de transmitir la leyenda de Mufasa</p>
+            <a href="https://www.cinecolombia.com/peliculas/mufasa-the-lion-king" class="btn btn-custom">Ver pelicula</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://archivos-cms.cinecolombia.com/images/_aliases/exhibition_poster_mobile/8/4/6/0/70648-1-esl-CO/18718bea2b0c-bbgl_cineco_pstr-dskp_480x670.jpg" class="card-img-top" alt="Película 2">
+          <div class="card-body">
+            <h5 class="card-title">Babygirl</h5>
+            <p class="card-text">Romy (Nicole Kidman) es una exitosa directiva que inicia un romance secreto con su joven becario a espaldas de su marido (Antonio Banderas). Deberá enfrentarse a los prejuicios y al riesgo de perder su puesto.</p>
+            <a href="#" class="btn btn-custom">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://archivos-cms.cinecolombia.com/images/_aliases/exhibition_poster_mobile/4/6/9/0/70964-3-esl-CO/19915c90c82d-480x670_poster_cinecolombia_undolorreal.png" class="card-img-top" alt="Película 3">
+          <div class="card-body">
+            <h5 class="card-title">A real pain</h5>
+            <p class="card-text">Dos primos viajan a Polonia tras la muerte de su abuela para ver de dónde vienen y acaban uniéndose a una gira sobre el Holocausto.</p>
+            <a href="#" class="btn btn-custom">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Reseñas Destacadas -->
+  <div class="container py-5">
+    <h2 class="text-center mb-4">Reseñas Destacadas</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <blockquote class="blockquote">
+          <p>“Una obra maestra del cine moderno. No hay palabras para describir su impacto.”</p>
+          <footer class="blockquote-footer">Crítico de Cine</footer>
+        </blockquote>
+      </div>
+      <div class="col-md-6">
+        <blockquote class="blockquote">
+          <p>“Emocionante de principio a fin. Sin duda, un clásico instantáneo.”</p>
+          <footer class="blockquote-footer">Revista de Cine</footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+
+  <!-- Blog -->
+  <div class="container py-5">
+    <h2 class="text-center mb-4">Últimos Posts del Blog</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://fmglobo.com/u/fotografias/m/2024/12/9/f1280x720-23471_155146_5050.jpg" class="card-img-top" alt="Blog Post 1">
+          <div class="card-body">
+            <h5 class="card-title">Crítica de la pelicula "Un hombre diferente"</h5>
+            <p class="card-text">Un hombre diferente es un pelicula en la que, Aaron Schimberg retoma los apuntes de su póetica[...]</p>
+            <a href="#" class="btn btn-custom">Leer más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://external-preview.redd.it/LZxKKs3a42CpYX5FkWXyWtGVUFfZ1B9I5Ua500oznDs.jpg?width=640&crop=smart&auto=webp&s=341344da9f71804f20a5084efb895958d508f4bb" class="card-img-top" alt="Blog Post 2">
+          <div class="card-body">
+            <h5 class="card-title">Crítica de la pelicula "Gladiador"</h5>
+            <p class="card-text">En Gladiador ||, Ridley Sccoot persigue nuevamente el manual de la ucronía para continuar el legado [...].</p>
+            <a href="#" class="btn btn-custom">Leer más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_fMTUc5kCHzZCMnv_Q2aPdrojAXen2-aQAA&s" class="card-img-top" alt="Blog Post 3">
+          <div class="card-body">
+            <h5 class="card-title">Crítica de la pelicula "Hereje"</h5>
+            <p class="card-text">En Hereje, el largometraje más reciente de Scott Beck y Bryan Woods, se sigue al pie de la letra algunos [...]</p>
+            <a href="#" class="btn btn-custom">Leer más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- (Desde aquí) Crítica de película -->
+<section id="critica" class="container mt-5">
+  <h2 class="text-center mb-4 text-warning">Crítica Destacada</h2>
+  <!-- Desde línea X -->
+  <div class="card mb-4 shadow-lg">
+  <div class="row g-0">
+  <div class="col-md-4">
+  <!-- Imagen del lado izquierdo -->
+  <div class="p-3">
+  <div class="card-img-container">
+  <img src="https://pics.filmaffinity.com/Heretic_Hereje-653464529-large.jpg" class="img-fluid rounded-start" alt="Imagen de la película">
+  </div>
+  </div>
+  </div>
+  <div class="col-md-8">
+  <!-- Contenido textual -->
+  <div class="card-body">
+  <h3 class="card-title text-warning">Hereje</h3>
+  <p class="card-text text-secondary">
+               En esta película nos sumergimos en un relato lleno de emoción y dilemas humanos. La dirección logra
+               capturar momentos intensos, mientras que las actuaciones ofrecen una experiencia memorable. Esta reseña
+               busca destacar los puntos clave sin dejar de lado las interpretaciones personales y la cinematografía.
+  </p>
+  <hr class="text-secondary">
+  <p class="card-text">
+  <strong>Director:</strong> Nombre del director <br>
+  <strong>Protagonistas:</strong> Actor 1, Actor 2, Actor 3
+  </p>
+  <a href="#ver-mas" class="btn btn-custom">Leer más</a>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- Hasta aquí -->
+  </section>
+  <!-- Fin de crítica -->
+
+
+
+
+
+  <footer class="bg-dark text-light py-4">
+    <div class="container">
+      <div class="row">
+        <!-- Columna 1: Información -->
+        <div class="col-md-4 mb-3">
+          <h5 class="text-uppercase text-warning">El Rincón del Cine</h5>
+          <p>
+            Tu destino para descubrir las mejores películas, desde clásicos hasta los estrenos más recientes. Vive la magia del cine con nosotros.
+          </p>
+        </div>
+  
+        <!-- Columna 2: Enlaces rápidos -->
+        <div class="col-md-4 mb-3">
+          <h5 class="text-uppercase text-warning">Enlaces rápidos</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none text-light hover-link">Inicio</a></li>
+            <li><a href="#" class="text-decoration-none text-light hover-link">Películas</a></li>
+            <li><a href="#" class="text-decoration-none text-light hover-link">Próximos estrenos</a></li>
+            <li><a href="#" class="text-decoration-none text-light hover-link">Contáctanos</a></li>
+          </ul>
+        </div>
+  
+        <!-- Columna 3: Redes Sociales -->
+        <div class="col-md-4 mb-3">
+          <h5 class="text-uppercase text-warning">Síguenos</h5>
+          <p>Encuéntranos en nuestras redes sociales:</p>
+          <div>
+            <a href="#" class="text-light me-3">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="#" class="text-light me-3">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a href="#" class="text-light me-3">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#" class="text-light">
+              <i class="bi bi-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="text-center mt-4">
+        <p class="mb-0">© 2025 El Rincón del Cine. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+  
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

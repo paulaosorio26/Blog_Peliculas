@@ -1,51 +1,6 @@
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  #footer {
-    background-color: #000;
-    color: #fff;
-    padding: 30px;
-    text-align: center;
-  }
-  
-  .footer-social ul {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 15px;
-    gap: 20px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .footer-social ul li a {
-    text-decoration: none;
-    color: #fff; 
-  }
-  
-  .footer-social ul li a:hover {
-    cursor: pointer;
-    color: gray;
-  }
-
-  .footer_credits{
-    margin-top: 20px;
-    font-size: 0.8rem;
-  }
-
-  .footer_credits a {
-    text-decoration: none;
-    color: #fff; 
-  }
-
-  .footer_credits a:hover {
-    cursor: pointer;
-    color: gray;
-  }
-
-  #team{
-    margin: 20px;
-  }
+footer {
+  background-color: #121212;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px 0;
+}

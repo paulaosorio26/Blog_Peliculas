@@ -1,45 +1,8 @@
-/* Reset de márgenes y paddings */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  /* Estilos para la barra de navegación */
-  .navbar {
-    background-color: #333;
-    padding: 25px 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
-  
-  .navbar-links ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-  }
-  
-  .navbar-links ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 5px 10px;
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  .navbar-links ul li a:hover {
-    background-color: #000000;
-    color: #8a8986;
-    border-radius: 5px;
-  }
-  
-  /* Contenedor principal de logo y redes sociales */
+.navbar .navbar-brand {
+  color: yellow !important;
+}
+
+/* Contenedor principal de logo y redes sociales */
 .logo-and-social {
     display: flex;
     justify-content: center;

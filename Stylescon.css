@@ -2,11 +2,15 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-image: url('https://th.bing.com/th/id/OIP.GhDnNq1WRXJgiJTz4OiWVQHaEK?rs=1&pid=ImgDetMain'); /* Imagen de fondo */
+    background-size: cover; /* La imagen cubre toda la pantalla */
+    background-position: center center; /* Centra la imagen */
+    background-attachment: fixed; /* Hace que la imagen no se desplace con el contenido */
 }
 
 /* Menú */
 nav {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro y semi-transparente para que resalte sobre la imagen */
     padding: 15px;
 }
 
@@ -32,6 +36,8 @@ nav a {
     width: 80%;
     margin: 20px auto;
     padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para mejorar la legibilidad */
+    border-radius: 10px;
 }
 
 h1 {
@@ -39,50 +45,178 @@ h1 {
     text-align: center;
 }
 
-/* Sección de información de contacto */
-.info-contacto {
-    background-color: #f0f0f0;
-    padding: 20px;
-    margin-bottom: 20px;
+/* Estilos personalizados para el sitio */
+body {
+    background-color: #f8f9fa;
 }
 
-/* Formulario */
-.formulario {
-    background-color: #f0f0f0;
-    padding: 20px;
+/* Navbar y marca */
+.navbar .navbar-brand {
+    color: yellow !important;
 }
 
-form div {
-    margin-bottom: 15px;
+/* Contenedor principal de logo y redes sociales */
+.logo-and-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 20px;
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
+/* Estilo para el logo */
+.logo-container img {
+    width: 300px;
+    height: auto;
 }
 
-input, textarea {
-    width: 100%;
-    padding: 8px;
-}
-
-textarea {
-    height: 100px;
-}
-
-button {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-/* Pie de página */
-footer {
-    background-color: #333;
-    color: white;
+/* Estilo para las redes sociales */
+.box {
     text-align: center;
-    padding: 20px;
-    margin-top: 20px;
+    margin-left: 50px;
 }
+
+.box h2 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #000000;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 300ms ease;
+}
+
+.red-social a:hover {
+    background-color: #555;
+    color: #ffffff;
+}
+
+/* Tarjetas y contenido */
+.card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Botones y elementos interactivos */
+.custom-button {
+    background-color: #0056b3;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #003d82;
+}
+
+.navbar .navbar-brand {
+    color: yellow !important;
+  }
+  
+  /* Contenedor principal de logo y redes sociales */
+  .logo-and-social {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+      gap: 20px; /* Espaciado entre el logo y las redes sociales */
+    }
+    
+    /* Estilo para el logo */
+    .logo-container img {
+      width: 300px; /* Ajusta el tamaño del logo según sea necesario */
+      height: auto;
+    }
+    
+    /* Estilo para las redes sociales */
+    .box {
+      text-align: center;
+      margin-left: 50px; /* Empuja las redes sociales más hacia la derecha */
+    }
+    
+    .box h2 {
+      margin-bottom: 10px;
+      font-size: 16px; /* Reduce el tamaño del título */
+    }
+    
+    .red-social a {
+      display: inline-block;
+      text-decoration: none;
+      width: 35px; /* Tamaño más pequeño */
+      height: 35px; /* Tamaño más pequeño */
+      line-height: 35px; /* Alinea el texto/icono centrado */
+      color: #fff;
+      margin-right: 10px;
+      background-color: #000000;
+      text-align: center;
+      border-radius: 50%; /* Hace que los cuadros sean circulares */
+      transition: all 300ms ease;
+    }
+    
+    .red-social a:hover {
+      background-color: #555;
+      color: #ffffff;
+    }
+
+    .navbar .navbar-brand {
+  color: yellow !important;
+}
+
+/* Contenedor principal de logo y redes sociales */
+.logo-and-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 20px; /* Espaciado entre el logo y las redes sociales */
+  }
+  
+  /* Estilo para el logo */
+  .logo-container img {
+    width: 300px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+  }
+  
+  /* Estilo para las redes sociales */
+  .box {
+    text-align: center;
+    margin-left: 50px; /* Empuja las redes sociales más hacia la derecha */
+  }
+  
+  .box h2 {
+    margin-bottom: 10px;
+    font-size: 16px; /* Reduce el tamaño del título */
+  }
+  
+  .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 35px; /* Tamaño más pequeño */
+    height: 35px; /* Tamaño más pequeño */
+    line-height: 35px; /* Alinea el texto/icono centrado */
+    color: #fff;
+    margin-right: 10px;
+    background-color: #000000;
+    text-align: center;
+    border-radius: 50%; /* Hace que los cuadros sean circulares */
+    transition: all 300ms ease;
+  }
+  
+  .red-social a:hover {
+    background-color: #555;
+    color: #ffffff;
+  }
+  
